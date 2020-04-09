@@ -31,7 +31,7 @@ class Header extends Component {
       return (
         <ul className="navbar-nav">
           <li className="nav-item" key={1}>
-            <Link className="btn btn-info" to="/signup">Sign Up</Link>
+            <Link className="btn btn-warning" to="/signup">Sign Up</Link>
           </li>
           <li className="nav-item" key={2}>
             <Link className="btn btn-primary ml-sm-2" to="/signin">Sign In</Link>
@@ -43,7 +43,7 @@ class Header extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-inverse bg-warning navbar-toggleable-md fixed-top">
+      <nav className="navbar navbar bg-info navbar-toggleable-md fixed-top">
         <div className="container">
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
