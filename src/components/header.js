@@ -81,3 +81,9 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, { verifyJwt, signoutUser })(Header);
+
+
+
+/**
+ * todo: A bug need to be fixed - After updating user profile, you navigate to another page (i.e., www.google.com). If you click the go back button on the browser, the username on header is incorrect.
+ */

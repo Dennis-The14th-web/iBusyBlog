@@ -82,3 +82,6 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps, { signinUser })(Signin);
+
+// The new version of reduxForm (v6) also removes the ability to inject actions or props like the 'connect' helper from React Redux does.
+// To fix this, you'll need to wrap your component with both the 'connect' and 'reduxForm' helpers.
