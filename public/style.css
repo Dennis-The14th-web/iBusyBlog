@@ -6,6 +6,7 @@ html {
   }
   body {
     /* Margin bottom by footer height */
+    background-image: url("../images/blog\ images.jpg");
     margin-bottom: 60px;
   }
   .footer {

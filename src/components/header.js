@@ -15,7 +15,7 @@ class Header extends Component {
     if (this.props.authenticated) {
       // show a dropdown menu for authenticated user
       return (
-        <div className="navbar-nav nav-item dropdown ml-auto">
+        <div className="navbar-nav nav-item nav dropdown ml-auto">
           <a className="nav-link dropdown-toggle" href="http://example.com" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{this.props.username}</a>
           <div className="dropdown-menu" aria-labelledby="dropdown02">
             <Link className="dropdown-item" to="/my_posts">Your Posts</Link>
@@ -31,10 +31,10 @@ class Header extends Component {
       return (
         <ul className="navbar-nav">
           <li className="nav-item" key={1}>
-            <Link className="btn btn-primary" to="/signup">Sign Up</Link>
+            <Link className="btn btn-info" to="/signup">Sign Up</Link>
           </li>
           <li className="nav-item" key={2}>
-            <Link className="btn btn-secondary ml-sm-2" to="/signin">Sign In</Link>
+            <Link className="btn btn-primary ml-sm-2" to="/signin">Sign In</Link>
           </li>
         </ul>
       );
@@ -43,12 +43,12 @@ class Header extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-inverse bg-inverse navbar-toggleable-md fixed-top">
+      <nav className="navbar navbar-inverse bg-warning navbar-toggleable-md fixed-top">
         <div className="container">
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleContainer" aria-controls="navbarsExampleContainer" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
-          <Link className="navbar-brand" to="/">Haichao's Blog System</Link>
+          <Link className="navbar-brand" to="/">iBusy Blog </Link>
 
           <div className="collapse navbar-collapse" id="navbarsExampleContainer">
             <ul className="navbar-nav mr-auto">
@@ -56,7 +56,7 @@ class Header extends Component {
                 <Link className="nav-link" to="/posts">Posts</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/haichao-yu/react-redux-blog">GitHub</a>
+                <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Dennis-The14th-web/ibusy">GitHub</a>
               </li>
             </ul>
             <form className="form-inline my-2 my-md-0">

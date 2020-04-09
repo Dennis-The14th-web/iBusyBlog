@@ -66,7 +66,7 @@ class Signin extends Component {
           <hr />
           <Field name="email" component={this.renderField} type="email" label="Email" />
           <Field name="password" component={this.renderField} type="password" label="Password" />
-          <button action="submit" className="btn btn-primary">Sign In</button>
+          <button action="submit" className="btn btn-info">Sign In</button>
         </form>
       </div>
     );

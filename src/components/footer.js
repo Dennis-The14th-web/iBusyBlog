@@ -4,7 +4,7 @@ export default () => {
   return (
     <footer className="footer">
       <div className="container">
-        <span className="text-muted">@2017 Haichao Yu</span>
+        <span className="text-muted">@2020 The14th-web</span>
       </div>
     </footer>
   );

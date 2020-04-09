@@ -58,7 +58,7 @@ class Signup extends Component {
           <Field name="email" component={this.renderField} type="email" label="Email"/>
           <Field name="password" component={this.renderField} type="password" label="Password"/>
           <Field name="passwordConfirm" component={this.renderField} type="password" label="Confirm Password"/>
-          <button type="submit" className="btn btn-primary">Sign Up</button>
+          <button type="submit" className="btn btn-info">Sign Up</button>
         </form>
       </div>
     );
