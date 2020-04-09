@@ -55,9 +55,6 @@ class Header extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/posts">Posts</Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/Dennis-The14th-web/ibusy">GitHub</a>
-              </li>
             </ul>
             <form className="form-inline my-2 my-md-0">
               <input className="form-control mr-sm-2" type="text" placeholder="Search Post" />

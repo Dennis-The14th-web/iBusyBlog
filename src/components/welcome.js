@@ -6,8 +6,8 @@ export default () => (
 
     { /*Main jumbotron for a primary marketing message or call to action*/ }
     <div className="jumbotron bg-info">
-      <h1 className="display-3">Hello!</h1>
-      <p>This is a MERN stack based fully functioning blog system. Here, you can share your experience and ideas with other people.</p>
+      <h1 className="display-3">Welcome Onboard!</h1>
+      <p>iBusy blog is the number one site for movies, tv shows, sports and other lifestyle reviews completely created with the MERN Stack development </p>
       <p><Link className="btn btn-primary btn-lg" to="/posts" role="button">Blog posts &raquo;</Link></p>
     </div>
 
