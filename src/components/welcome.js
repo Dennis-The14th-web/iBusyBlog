@@ -14,13 +14,13 @@ export default () => (
     { /*Example row of columns*/ }
     <div className="row text-justify">
       <div className="col-md-4">
-        <h2>Stretegy</h2>
+        <h2>Movie Reviews</h2>
       </div>
       <div className="col-md-4">
-       <h2>Leadership</h2>
+       <h2>TV Show Reviews</h2>
       </div>
       <div className="col-md-4">
-       <h2>Goal</h2>
+       <h2>Sports Reviews</h2>
       </div>
     </div>
 
